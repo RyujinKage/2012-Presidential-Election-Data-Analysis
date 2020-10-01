@@ -18,6 +18,8 @@ This analysis is done on factors such as:
 Various graphs and diagrams are also drawn for better understanding of data provided in the dataset. Along with calculating, different averages and standard deviations in many cases in the datasets such as in case of Poll results etc. 
 
 Overall this project gives a better understanding of many factors responsible for the elections and how to represent them in a more understandable form is provided. 
+Here we have implemented lots of algorith and found out best of all using accuracy of model
+here i have also done sentiment analysis of the news about election 
 
 
 

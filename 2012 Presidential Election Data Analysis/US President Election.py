@@ -4,7 +4,7 @@
 # In[1]:
 
 # Importing Essential Python libraries
-
+# importing files needed for running code
 import numpy as np
 import pandas as pd
 from pandas import Series,DataFrame
@@ -23,7 +23,7 @@ from io import StringIO
 # For timestamps
 
 from datetime import datetime
-
+#getting date and time out of timestam
 
 # In[2]:
 
@@ -37,6 +37,7 @@ source = requests.get(url).text
 # In[3]:
 
 # Creating a DataFrame from the Poll dataset
+#reading data
 
 poll_data = StringIO(source)
 
@@ -166,7 +167,7 @@ print(max(xlimit))
 
 
 # In[19]:
-
+#plotting using plotlibraries
 # Plotting the GOP Debate markers and how it affected people's opinions and votes
 
 poll_df.plot('Start Date','Difference',figsize=(12,4),marker='o',linestyle='-',color='purple',xlim=(329,356))
@@ -182,6 +183,7 @@ plt.axvline(x=329+21,linewidth=4,color='grey')
 # In[20]:
 
 ## Donor Dataset and taking into account Donors
+#reading donor dataset and analyzing
 
 # Reading in the Donor Dataset
 donor_df = pd.read_csv('Election_Donor_Data.csv')
